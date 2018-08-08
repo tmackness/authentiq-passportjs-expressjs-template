@@ -59,10 +59,6 @@ passport.use(new AuthentiqStrategy({
             number: profile._json.phone_number,
             phoneType: profile._json.phone_type,
             verified: profile._json.phone_number_verified
-          },
-          extras: {
-            locale: profile._json.locale,
-            zoneInfo: profile._json.zoneinfo
           }
         }).save();
 
