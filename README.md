@@ -20,4 +20,6 @@ Required environment variables:
 
 In development mode sessions are setup to use a session file which creates a directory named sessions. In production it will use REDIS.
 
+Before running server: `npm install` to install the modules.
+
 If using the built in script to run the server e.g. `npm run dev`, you will need to install nodemon if you don't have it. `npm i -g nodemon`.
