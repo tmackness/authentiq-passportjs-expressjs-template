@@ -11,8 +11,8 @@ Required environment variables:
 * SESSION_SECRET
 * AUTHENTIQ_SECRET
 * NODE_ENV
-⋅⋅* "development"; or
-⋅⋅* "production"
+  * "development"; or
+  * "production"
 
 In development mode sessions are setup to use a session file which creates a directory named sessions. In production it will use REDIS.
 
