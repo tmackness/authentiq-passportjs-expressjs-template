@@ -1,0 +1,30 @@
+{
+  "name": "expressjs-authentiq-passportJS",
+  "version": "1.0.0",
+  "description": "Template for getting you up and running with Authentiq passwordless login, using PassportJS on ExpressJS.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon app.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "sessions"
+    ]
+  },
+  "author": "Trent Mackness",
+  "license": "MIT",
+  "dependencies": {
+    "connect-redis": "^3.3.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.3",
+    "passport": "^0.4.0",
+    "passport-authentiq": "^1.0.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "session-file-store": "^1.2.0"
+  }
+}
